@@ -478,7 +478,7 @@ endfun
 " For now, force darkness. If you're a big fan of white bg's, let me know, and
 " we can collaborate on a solution.
 set bg=dark
-call s:fgbg('Normal', 'gray254', 'gray232')
+call s:fg('Normal', 'gray254')
 
 " Basic/Default-like Palette {{{
 hi SpecialKey     term=bold ctermfg=81 guifg=Cyan
